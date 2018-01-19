@@ -1,0 +1,144 @@
+.menu
+{
+position: relative;
+top: 10%;
+left: 35%;
+width: 100%;
+height: 0%;
+background-color: ;
+}
+
+.menu ul li{
+  padding: 10px;
+  
+}
+.menu ul > li:hover{
+  background-color: none; /* цвет выбранного пункта меню после открытия */
+}
+.menu ul ul > li:hover{
+  background-color: none;  /*цвет выбранного пункта подменю*/
+}
+.menu ul li, .menu ul{
+  display: inline-block;
+  background-color: none; 
+}
+.menu ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: none; /*заливка пунктов (красный)меню*/
+  width: 700px;
+	
+}
+.menu ul ul{
+  display: none;
+  position: absolute;
+  background-color: white; /*заливка выпадающих пунктов меню (синий) */
+  margin-top: 10px;
+  margin-left: -10px;
+  
+} 
+.menu ul a{
+  color: black; /*цвет букв (белый)*/
+  text-decoration: none;
+  background-color: none;
+	
+}
+.menu ul ul a{
+  color: none; /*цвет букв выпадающего меню (белый)*/
+  text-decoration: none;
+}
+.menu li:hover ul{
+  display: block;
+}
+
+.menu li:hover li{
+  display: block;
+}
+
+.brand
+{
+position: relative;
+top: 40%;
+left: 0%;
+width: 30%;
+height: 48%;
+}
+
+
+body
+{
+margin: 0;
+background-color: none;
+}
+
+
+
+header
+{
+background-image:url("../www/backgrounds/1.png");
+background-repeat: repeat-x;
+height: 130px;
+}
+
+
+section
+{
+background-image:url("../www/backgrounds/4.png");
+background-repeat: repeat-x;
+position: relative;
+top: -4px;
+left: 0%;
+}
+
+.product
+{
+display: inline-block;
+padding: 0px 50px; 
+margin: 15px;
+
+}
+
+.product img 
+{
+border-radius: 25px; 
+box-shadow: 15px 15px 30px rgba(0,0,0,0.6); <!--тени-->
+}
+
+.product p
+{
+text-align: center;
+}
+
+.price2
+{
+color: rgb(229, 142, 18);
+text-align: center;
+}
+
+.form
+{
+display: block;
+}
+
+footer
+{
+background-image:url("../www/backgrounds/5.png");
+background-repeat: repeat-x;
+position: relative;
+top: 0px;
+left: 0%;
+width: 100%;
+height: 70px;
+
+}
+
+footer p
+{
+position: relative;
+top: 25px;
+left: 0%;
+text-align:center;
+color: rgb(130, 50, 80);
+}
+
